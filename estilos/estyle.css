@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: "Outfit", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(77, 22, 128);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login{
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(19, 6, 32);
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
+}
+#imagem{
+    display: block;
+    background-image: url(../imagens/backgroundvaporwave1011d.jpg);
+    height: 200px;
+    background-size: cover;
+}
+#formulario{
+    display: block;
+    padding: 10px;
+}
